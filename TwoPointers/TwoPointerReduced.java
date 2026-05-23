@@ -16,7 +16,7 @@ class TwoPointerReduced{
 	}
 	public static void main(String[] args){
 		int[] arr={-8,1,4,6,10,45};
-		TwoPointerDemo tp = new TwoPointerDemo();
+		TwoPointerReduced tp = new TwoPointerReduced();
 		int[] pairs=tp.TwoPointer(arr, 10);
 		if(pairs[0]==-1 && pairs[1]==-1){
 			System.out.println("No pair found");
