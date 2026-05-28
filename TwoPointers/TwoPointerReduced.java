@@ -2,6 +2,7 @@
 more reduced code cuz it can't be further optimized
 in terms of time complexity which is O(n) 
 */
+
 class TwoPointerReduced{
 	public int[] TwoPointer(int[] arr, int target){
 		int left=0,right=arr.length-1;
