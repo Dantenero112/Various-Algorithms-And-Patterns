@@ -1,4 +1,5 @@
 // Finding the resultant sum of pairs that is closest to 0
+// This is unoptimized code that results in O(n^2) time complexity
 package ClosestTwoSum;
 public class NaiveApproach {
     public int pairSum(int[] arr){
